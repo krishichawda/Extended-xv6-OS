@@ -176,5 +176,3 @@ Potential areas for further development:
 - Real-time scheduling support
 
 ---
-
-**Note**: This is an educational operating system designed for learning purposes. While it implements advanced features, it should not be used in production environments. 
