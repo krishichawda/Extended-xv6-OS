@@ -1,0 +1,69 @@
+# Build artifacts
+*.o
+*.d
+*.asm
+*.sym
+bootblock
+entryother
+initcode
+initcode.out
+kernel
+kernelmemfs
+xv6.img
+xv6memfs.img
+fs.img
+mkfs
+
+# Debug files
+.gdbinit
+*.gdb
+
+# Documentation build
+*.tex
+*.dvi
+*.idx
+*.aux
+*.log
+*.ind
+*.ilg
+xv6.pdf
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS specific
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+
+# Distribution files
+dist/
+dist-test/
+*.tar.gz
+
+# QEMU specific
+*.qcow2
+*.vmdk
+*.vdi
+
+# Test outputs
+test-results/
+coverage/
